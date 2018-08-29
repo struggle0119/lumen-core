@@ -23,7 +23,7 @@ class TestController extends Controller {
     public function test(Request $request) {
 //        Cache::put('username123', '122221', 10);
 //        Cache::get('username123');
-//        $this->validateRequest($request);
+        $this->validateRequest($request);
 
         return ApiResponse::respond('123');
     }
